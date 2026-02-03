@@ -1,0 +1,39 @@
+[project]
+name = "explainable-jsw-measurement"
+requires-python = ">=3.11,<3.13"
+version = "0.1.0"
+readme = "README.md"
+
+
+[project.optional-dependencies]
+localization = [
+    "ultralytics",
+    "opencv-python",
+    "numpy",
+    "matplotlib",
+    "pillow"
+]
+
+segmentation = [
+    "torch>=2.1.0",
+    "torchvision>=0.16.0",
+    "monai>=1.2.0",
+    "numpy",
+    "opencv-python",
+    "matplotlib",
+    "tqdm",
+    "pyyaml",
+    "pillow"
+]
+
+regression = [
+    "torch>=2.1.0",
+    "torchvision>=0.16.0",
+    "scikit-learn>=1.2.2",
+    "pandas>=2.1.0",
+    "numpy>=1.25.0",
+    "tqdm",
+    "opencv-python",
+    "matplotlib",
+    "pillow"
+]
