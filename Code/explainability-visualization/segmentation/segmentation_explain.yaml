@@ -1,0 +1,9 @@
+test_images: "/path/to/images"
+test_masks: "/path/to/masks"
+
+
+model_path: "/ihome/atafti/feg48/local_folder/jsw/U-Net_final.pth"
+outdir: "/ihome/atafti/feg48/local_folder/jsw/Figures/segmentation"
+max_n: 100
+device: "cuda"
+batch_size: 1
