@@ -1,1 +1,23 @@
+# Data Source Paths
+test_csv: "/data_vault/hexai/feg48/projects/jsw/test/jsw_measurements.csv"
+mask_dir: "/data_vault/hexai/feg48/projects/jsw/test/masks"
+image_dir: "/data_vault/hexai/feg48/projects/jsw/test/images_side"
 
+# Model Mapping
+models:
+  R:
+    medial: "/data_vault/hexai/feg48/projects/jsw/model/model_R_medial_final.pth"
+    lateral: "/data_vault/hexai/feg48/projects/jsw/model/model_R_lateral_final.pth"
+  L:
+    medial: "/data_vault/hexai/feg48/projects/jsw/model/model_L_medial_final.pth"
+    lateral: "/data_vault/hexai/feg48/projects/jsw/model/model_L_lateral_final.pth"
+
+# Default run parameters
+side: "R"
+compartment: "medial"
+
+# Explanation Settings
+device: "cuda"
+outdir: "/home/feg48/jsw/Figures/regression"
+max_n: 100 
+explain_target_idx: 3
