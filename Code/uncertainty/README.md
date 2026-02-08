@@ -73,3 +73,6 @@ For each output target, we compute:
     </td>
   </tr>
 </table>
+
+
+<p align="justify">Histograms show the distribution of predictive uncertainty (standard deviation) estimated via MC Dropout across medial and lateral JSW targets for both knees.</p>
