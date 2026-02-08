@@ -8,7 +8,7 @@ The goal is to estimate the predictive variability by performing multiple stocha
 For each output target, we compute:
 <span><strong>Mean (μ)</strong></span>,
 <span><strong>Standard Deviation (SD)</strong></span> as an uncertainty proxy, and
-<span><strong>90% predictive interval</strong></span> using <strong>Q05–Q95</strong>.
+<span><strong>90% predictive interval</strong></span> using Q05–Q95.
 </p>
 
 
@@ -46,3 +46,9 @@ For each output target, we compute:
     </tr>
   </tbody>
 </table>
+
+
+
+## Uncertainty Plots (SD Histograms)
+
+
