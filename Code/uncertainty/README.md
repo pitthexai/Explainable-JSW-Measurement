@@ -51,4 +51,25 @@ For each output target, we compute:
 
 ## Uncertainty Plots (SD Histograms)
 
-
+<table align="center">
+  <tr>
+    <td align="center">
+      <strong>Left – Medial</strong><br>
+      <img src="Left_medial_sd_hist.png" width="420"/>
+    </td>
+    <td align="center">
+      <strong>Left – Lateral</strong><br>
+      <img src="Left_lateral_sd_hist.png" width="420"/>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <strong>Right – Medial</strong><br>
+      <img src="Right_medial_sd_hist.png" width="420"/>
+    </td>
+    <td align="center">
+      <strong>Right – Lateral</strong><br>
+      <img src="Right_lateral_sd_hist.png" width="420"/>
+    </td>
+  </tr>
+</table>
